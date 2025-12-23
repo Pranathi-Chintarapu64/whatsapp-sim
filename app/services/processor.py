@@ -7,7 +7,6 @@ from app.services.llm import generate_llm_response
 from app.services.media import handle_media
 from app.services.context import load_user_context
 
-
 def process_message(payload: WebhookPayload) -> None:
     user_context = load_user_context(payload.sender)
 
