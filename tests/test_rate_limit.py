@@ -5,16 +5,16 @@ client = TestClient(app)
 
 def test_rate_limit_same_user():
     payload_1 = {
-        "message_id": "msg-101",
-        "from": "user_rate",
+        "message_id": "100",
+        "from": "user1",
         "text": "hello",
         "timestamp": "2025-01-01T10:00:00",
         "media": None
     }
 
     payload_2 = {
-        "message_id": "msg-102",
-        "from": "user_rate",
+        "message_id": "101",
+        "from": "user2",
         "text": "another message",
         "timestamp": "2025-01-01T10:00:01",
         "media": None
