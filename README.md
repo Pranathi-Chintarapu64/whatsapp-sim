@@ -1,4 +1,4 @@
-# Simulated WhatsApp Webhook – Health Chatbot (FastAPI)
+# Simulated WhatsApp Webhook (FastAPI)
 
 ## Overview
 
