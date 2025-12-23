@@ -1,0 +1,12 @@
+{
+  "biotech": {
+    "age": 28,
+    "conditions": ["hypoglycemia"],
+    "diet": "vegetarian"
+  },
+  "user123": {
+    "age": 35,
+    "conditions": ["diabetes"],
+    "diet": "mixed"
+  }
+}
