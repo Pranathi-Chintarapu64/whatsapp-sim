@@ -3,7 +3,7 @@
 ## Overview
 
 This project simulates a **WhatsApp webhook handler** for a health chatbot using **FastAPI**.
-It demonstrates **idempotent webhook handling**, **background processing**, **rate limiting**, and **chat context usage**, as required in the assignment.
+It demonstrates **idempotent webhook handling**, **background processing**, **rate limiting**, and **chat context usage**, as required in the assignment.  
 
 The system accepts incoming webhook messages, processes them asynchronously, and exposes a polling API to fetch generated responses.
 
